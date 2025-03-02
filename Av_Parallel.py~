@@ -213,13 +213,13 @@ from joblib import Parallel, delayed
 start_time = time.time()
 
 # Given initial definitions
-quantum_feature_map = squeezed
+quantum_feature_map = coherent
 num_points = 100
 dataset_generator = generate_spirals
 N_grid = 1
 
-N_qfm_arr = np.arange(1, 41, 1, dtype='int')
-param_qfm_arr = np.arange(1, 70, 0.5)
+N_qfm_arr = np.arange(10, 31, 1, dtype='int')
+param_qfm_arr = np.arange(1, 50, 0.5)
 random_max = 10
 
 # Preallocate arrays
