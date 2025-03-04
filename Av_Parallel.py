@@ -289,8 +289,8 @@ hour = current_time.tm_hour  # Hour (0-23)
 minute = current_time.tm_min # Minute (0-59)
 
 
-arrays = [acc_mean, acc_std, internal_mean, internal_std, fidelity_mean, fidelity_std]
-variable_names = ['acc_mean', 'acc_std', 'internal_mean', 'internal_std', 'fidelity_mean', 'fidelity_std']
+arrays = [N_qfm_arr,param_qfm_arr,acc_mean, acc_std, internal_mean, internal_std, fidelity_mean, fidelity_std]
+variable_names = ['N_qfm_arr','param_qfm_arr','acc_mean', 'acc_std', 'internal_mean', 'internal_std', 'fidelity_mean', 'fidelity_std']
 
 qfm_name = (quantum_feature_map.__name__)[:3]
 dataset_name = (dataset_generator.__name__)[9:12]
