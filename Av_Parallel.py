@@ -213,7 +213,7 @@ from joblib import Parallel, delayed
 start_time = time.time()
 
 # Given initial definitions
-quantum_feature_map = squeezed
+quantum_feature_map = coherent
 num_points = 100
 dataset_generator = generate_spirals
 N_grid = 1
