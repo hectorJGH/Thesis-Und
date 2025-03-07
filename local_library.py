@@ -48,7 +48,7 @@ def make_spiral(phase, slope, noise_std, num_points, turns, label, random_seed=0
     return x, y, labels
 
 
-def generate_spirals(num_points, random_seed, noise = 0.5, plot = False, test_size=0.25):
+def generate_spirals(num_points, random_seed, noise = 0.3, plot = False, test_size=0.25):
     # Parameters
     turns = 1  # Number of turns in the spiral
     slope = 1
